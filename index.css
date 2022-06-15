@@ -1,0 +1,300 @@
+.main{
+  height:100vh;
+}
+.svg1 .text1{
+  font-family: 'Lora';
+  letter-spacing: 10px;
+  stroke: black;
+  font-size: 80px;
+  font-weight: 700;
+  stroke-width: 3;
+  animation: textAnimate 5s infinite alternate;
+  transform: translate(25px, 25px);
+}
+.svg2 .text2{
+  font-family: 'Lucida Console';
+  letter-spacing: 8px;
+  stroke: black;
+  font-weight: 700;
+  stroke-width: 3;
+  animation: textAnimatee 3s;
+  font-size: 70px;
+}
+.image{
+  animation: textAnimatee 3s;
+  float:right;
+
+}
+@keyframes textAnimatee {
+  0% {
+    opacity:0;
+    font-size: 50px;
+  }
+  100%{
+   opacity :1;
+   font-size: 70px;
+  }
+}
+@keyframes textAnimate {
+  0% {
+    stroke-dasharray: 0 50%;
+    stroke-dashoffset:  20%;
+    fill: gray;
+
+  }
+  
+  100% {
+    stroke-dasharray: 50% 0;
+    stroke-dashoffset: -20%;
+    fill: hsla(189, 68%, 75%,0%)
+  }
+  
+}
+.t1 {
+  font-family: Lora;
+  font-weight: bold;
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align:center;
+  font-size: 200%;
+}
+.t3 {
+  font-family: Lora;
+  font-weight: bold;
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align:center;
+  font-size: 200%;
+}
+.port{
+  color: white;
+  text-decoration:none ;
+  border: 2px solid silver;
+  border-radius:5px;
+  background-color:black;
+
+}
+div.topnav{
+	font-family:"Garamond";
+	font-size:150%;
+	margin: 5%;
+    font-weight: bolder;
+    color: #000000;
+}
+.topnav a:link {
+  color:  #000033;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.topnav a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+.topnav a:hover {
+  color: #000066;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.topnav a.active {
+  color:rgba(14, 2, 2, 0.5);
+  background-color: transparent;
+  text-decoration: underline;
+}
+.topnav a {
+  float: none;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+.topnav
+{
+	margin: 30px;
+	padding-top: 30px;
+	min-height: 70px;
+	text-align:center;
+	border-bottom: #000000 3px solid;
+  overflow:hidden;
+}
+.aboutbody{
+  text-align:center;
+  font-family: Lora;
+}
+.image{
+  width="30%";
+  height="30%";
+}
+.cont{
+  font-family: "Lora";
+  text-decoration: none;
+  text-align: left;
+  display: inline;
+  vertical-align: top;
+}
+.proj{
+  color:black;
+  text-decoration:none;
+  font-size:30px;
+}
+.proj:hover{
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HOME PAGE
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Lucida Handwriting;
+}
+
+.main{
+	height:100%;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+} .foot{
+	background-color:#B9BBB6;
+	font-family:Lucida Handwriting;
+	font-size:25%;
+	text-align:center;
+}
+
+.bg
+{
+  background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pdflowerset17-tang-01a_1.jpg?w=1300&dpr=1&fit=default&crop=default&q=80&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=134a6f57e7cc11fdcd2fdb7ba86a95c0");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+}
+.bg-text {
+ 
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.topnav a:link {
+  color:  #000033;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.topnav a:visited {
+  color:  #000066;
+  background-color: transparent;
+  text-decoration: none;
+}
+div.topnav
+{
+	margin: 30px;
+    background-color: #ffffff;
+    opacity: 0.4;
+	padding-top: 30px;
+	min-height: 70px;
+	text-align:center;
+	border-bottom: #000000 3px solid;
+    overflow:hidden;	
+}
+div.topnav p{
+	font-family:Garamond;
+	font-size:150%;
+	margin: 5%;
+    font-weight: bolder;
+    color: #000000;
+}
+.topnav a {
+  float: none;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+.topnav a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.topnav a.active {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+h1{
+color:#000000;
+}
+p{
+color: #20202c;
+  font-family: Lucida Handwriting;
+} */
